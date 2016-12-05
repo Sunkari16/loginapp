@@ -10,7 +10,7 @@
 - Make sure MySQL is running (`mysql.server start`)
 - Make sure Memcached is running (`memcached &`)
 - Log into MySQL (`mysql -u root`)
-- Create the databases : `CREATE DATABASE media_bucket;` and `CREATE DATABASE media_bucket_test;`
+- Create the databases : `CREATE DATABASE login_app ;` and `CREATE DATABASE login_app_test;`
 - Clone this project
 - In the project's root, run `npm i`
 - Run `npm run migrate -- --env test`
